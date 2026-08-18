@@ -19,9 +19,11 @@ flowchart LR
     Queue --> Worker[Worker]
     Worker --> PostgreSQL
     Worker --> External[APIs externas]
+```
 
 ## Organização prevista
 
+```text
 src/
   modules/
     identity/       usuários, papéis e autenticação
@@ -30,6 +32,7 @@ src/
     enrichment/     conectores externos e normalização
     analytics/      consultas e métricas
   shared/           configuração, logs, erros e contratos
+```
 
 ## Responsabilidades
 
@@ -46,4 +49,3 @@ src/
 - Idempotência para evitar pedidos duplicados.
 - Falhas de integrações externas não invalidam pedidos persistidos.
 - Dados financeiros usam valores decimais.
-```
