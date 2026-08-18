@@ -137,6 +137,11 @@ src/
 
 ## 6. Marcos de desenvolvimento
 
+### Status atual
+
+- Marco 0 — Concluído.
+- Marco 1 — Próximo marco.
+
  Marco    Entrega                                                             Conceitos praticados
 ━━━━━━━  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  0        README, decisões arquiteturais, lint, format, Docker e CI básico    Clean Code, documentação, GitHub Actions
