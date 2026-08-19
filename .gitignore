@@ -3,5 +3,7 @@ node_modules
 .env
 dist
 **/AGENTS.md
+**/CLAUDE.md
+excalidraw.log
 
 /generated/prisma
